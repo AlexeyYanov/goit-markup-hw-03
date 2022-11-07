@@ -50,14 +50,16 @@
     </header>
     <main>
       <section class="hero">
-        <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-        <button type="button" class="button primary">Замовити послугу</button>
+        <div class="container">
+          <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
+          <button type="button" class="button primary">Замовити послугу</button>
+        </div>
       </section>
 
       <section class="section">
-        <div class="container-advantages container">
+        <div class="container">
           <h2 class="pattern-hidden">Наші переваги</h2>
-          <ul class="list">
+          <ul class="advantages-list list">
             <li class="item">
               <h3 class="section-title-primary">УВАГА ДО ДЕТАЛЕЙ</h3>
               <p class="description-advantages">
@@ -88,10 +90,10 @@
           </ul>
         </div>
       </section>
-      <section>
-        <div class="container-title-secondary">
+      <section class="work">
+        <div class="container">
           <h2 class="section-title-secondadry">Чим ми займаємося</h2>
-          <ul class="list">
+          <ul class="work-list list">
             <li>
               <img
                 src="./images/comp.jpg"
@@ -118,9 +120,9 @@
       </section>
 
       <section class="section-team">
-        <div class="container-team">
-          <h2 class="section-title-secondadry">Наша команда</h2>
-          <ul class="list">
+        <div class="container">
+          <h2 class="section-title-secondadry-team">Наша команда</h2>
+          <ul class="members list">
             <li>
               <img
                 src="./images/demianenko.jpg"
@@ -128,8 +130,10 @@
                 width="270"
                 height="260"
               />
-              <h3 class="section-names">Ігор Дем'яненко</h3>
-              <p class="decription">Product Designer</p>
+              <div class="names-and-description">
+                <h3 class="section-names">Ігор Дем'яненко</h3>
+                <p class="description-team">Product Designer</p>
+              </div>
             </li>
             <li>
               <img
@@ -138,8 +142,10 @@
                 width="270"
                 height="260"
               />
-              <h3 class="section-names">Ольга Рєпіна</h3>
-              <p class="decription">Frontend Developer</p>
+              <div class="names-and-description">
+                <h3 class="section-names">Ольга Рєпіна</h3>
+                <p class="description-team">Frontend Developer</p>
+              </div>
             </li>
             <li>
               <img
@@ -148,8 +154,10 @@
                 width="270"
                 height="260"
               />
-              <h3 class="section-names">Микола Тарасов</h3>
-              <p class="decription">Marketing</p>
+              <div class="names-and-description">
+                <h3 class="section-names">Микола Тарасов</h3>
+                <p class="description-team">Marketing</p>
+              </div>
             </li>
             <li>
               <img
@@ -158,8 +166,10 @@
                 width="270"
                 height="260"
               />
-              <h3 class="section-names">Михайло Єрмаков</h3>
-              <p class="decription-team">UI Designer</p>
+              <div class="names-and-description">
+                <h3 class="section-names">Михайло Єрмаков</h3>
+                <p class="description-team">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -167,12 +177,12 @@
     </main>
 
     <footer class="section-works-footer">
-      <div class="container-footer">
+      <div class="container">
         <a href="./index.html" class="logo"
           >Web<span class="logo-footer">Studio</span>
         </a>
-        <address>
-          <ul class="list">
+        <address class="address-footer">
+          <ul class="address-footer-list list">
             <li>
               <a
                 href="https://goo.gl/maps/Q7eHkyQhdYGQR9RCA"

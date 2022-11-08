@@ -54,12 +54,16 @@ button {
 }
 /*Header*/
 
-.header-container {
-  display: flex;
-  align-items: center;
+.header {
   border-bottom-width: 1px;
   border-bottom-style: solid;
   border-bottom-color: #ececec;
+  margin-bottom: 94px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
 }
 .logo {
   font-family: Raleway, sans-serif;
@@ -135,13 +139,9 @@ button {
 }
 
 /*Hero-title*/
-.hero-title {
-  margin-top: 0;
-  margin-bottom: 0;
-}
 
 .hero {
-  background: #2f303a;
+  background-color: #2f303a;
   text-align: center;
   padding: 200px 0;
 }
@@ -155,6 +155,7 @@ button {
   text-transform: uppercase;
   width: 696px;
   margin: 0 auto;
+  margin-bottom: 30px;
   /* изменить тут марджин боттом перебвиает маржин авто*/
 }
 .button.primary {
@@ -170,17 +171,12 @@ button {
   cursor: pointer;
   padding: 10px 32px;
   border: none;
-  border-radius: 4px; /*Why we have here border radius we have at line 34*/
+  border-radius: 4px;
   margin-right: auto;
   margin-left: auto;
 }
 
 /* Section advantages*/
-/*
-.section {
-  padding: 94px 0; /* where have we find thise 94 &0   ???*/
-} 
-*/
 
 .pattern-hidden {
   position: absolute;
@@ -214,7 +210,7 @@ button {
 /* Title secondary-Our works*/
 
 .work {
-  padding: 94px;
+  padding-top: 0;
 }
 
 .work-list {
@@ -228,8 +224,8 @@ button {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
-  padding-top: 118px;
-  padding-bottom: 50px;
+  margin-top: 118px;
+  margin-bottom: 50px;
 }
 
 /* Team*/
@@ -248,22 +244,24 @@ button {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
+  margin-bottom: 50px;
+
   padding-top: 94px;
-  padding-bottom: 50px;
 }
 .members {
   display: flex;
   gap: 30px;
-  padding-bottom: 94px;
-  padding-top: 50px;
 }
-.names-and-description {
-  padding-top: 30px;
-  padding-bottom: 30px;
+.members-item {
   background-color: var(--maket-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+}
+
+.names-and-description {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .section-names {
   font-weight: 500;
@@ -272,6 +270,7 @@ button {
   letter-spacing: 0.03em;
   color: var(--title-text-color);
   text-align: center;
+  margin-bottom: 10px;
 }
 .description-team {
   font-size: 16px;
@@ -286,14 +285,13 @@ button {
   background: #2f303a;
   padding: 60px 0;
 }
+
+.address-item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
 .address-footer {
   margin-top: 20px;
-  margin-bottom: 9px;
-}
-.address-footer-list:not(:last-child) {
-  margin-bottom: 9px;
-}
-.address-footer {
   font-style: normal;
   line-height: 24px;
   letter-spacing: 0.03em;
@@ -323,7 +321,7 @@ button {
   display: flex;
   justify-content: center;
   gap: 8px;
-  margin-top: 100px;
+
   margin-bottom: 50px;
 }
 .button.secondary {
@@ -361,6 +359,7 @@ button {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--title-text-color);
+  margin-bottom: 4px;
 }
 .description-product {
   font-size: 16px;

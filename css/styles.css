@@ -176,10 +176,11 @@ button {
 }
 
 /* Section advantages*/
-
+/*
 .section {
   padding: 94px 0; /* where have we find thise 94 &0   ???*/
-}
+} 
+*/
 
 .pattern-hidden {
   position: absolute;

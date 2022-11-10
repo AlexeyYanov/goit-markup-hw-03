@@ -58,7 +58,6 @@ button {
   border-bottom-width: 1px;
   border-bottom-style: solid;
   border-bottom-color: #ececec;
-  margin-bottom: 94px;
 }
 
 .header-container {
@@ -224,7 +223,6 @@ button {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
-  margin-top: 118px;
   margin-bottom: 50px;
 }
 
@@ -245,8 +243,6 @@ button {
   letter-spacing: 0.03em;
   color: var(--title-text-color);
   margin-bottom: 50px;
-
-  padding-top: 94px;
 }
 .members {
   display: flex;
@@ -321,8 +317,7 @@ button {
   display: flex;
   justify-content: center;
   gap: 8px;
-
-  margin-bottom: 50px;
+  padding: 94px 0;
 }
 .button.secondary {
   font-family: "Roboto";
